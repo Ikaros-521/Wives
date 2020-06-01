@@ -1,0 +1,41 @@
+body {
+	background:url("../img/1.jpg") top left;
+	background-size:100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#head {
+    height: 100px;
+}
+
+#center {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+#text {
+	color: pink;
+    text-shadow: #000 1px 1px 2px;
+}
+
+/* bottom */
+#bottom {
+	padding: 10px;
+}
+
+#copyright {
+    color: #CCCCCC;
+	text-align: center;
+}
+
+#copyright_span {
+	font-size: 12px;
+	color: #666666;
+	letter-spacing: 0.86px;
+	text-align: justify;
+}
+

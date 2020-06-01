@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>老婆们！</title>
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/my.js"></script>
+</head>
+<body>
+	<div id="head">
+		
+	</div>	
+
+	<div id="center">
+		<div id="show_info">
+			<div id="tip">
+				<span id="reply_span"></span>
+				<img src="img/cloud.png" />
+			</div>
+		</div>
+		<div>
+			<form role="form">
+				<div class="form-group">
+					<textarea id="info" class="form-control" rows="2"></textarea>
+					<button id="btn_send" type="button" class="btn btn-primary btn-lg " onclick="send_info()">发送</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="child_window">
+		<iframe src="help.html"></iframe>
+	</div>
+	<div id="help_div" onclick="show_help()">
+		<img id="help" src="img/help.png" alt="说明" title="说明"/>
+	</div>
+	<div id="bottom">
+		<div id="copyright">
+			<span id="copyright_span">Copyright © 2020 Love丶伊卡洛斯, All Rights Reserved.</span>
+		</div>
+	</div>
+</body>
+</html>

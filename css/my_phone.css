@@ -1,0 +1,92 @@
+body {
+	background:url("../img/2.jpg") top left;
+	background-size:100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#head {
+	height: 10%;
+}
+
+#center {
+	width: 100%;
+	height: 85%;
+    margin: 0 auto;
+}
+
+#center #show_info {
+	height: 80%;
+}
+
+#center #show_info #tip{
+    padding-top: 70%;
+    padding-left: 10%;
+}
+
+#tip img {
+	width: 70%;
+}
+
+/* 回复框span */
+#center #show_info #tip #reply_span {
+	position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+#center #info {
+	margin-left: 10%;
+	float: left;
+    width: 50%;
+}
+
+#center #btn_send {
+	margin-top: 1%;
+    margin-left: 2%;
+}
+
+#child_window {
+	position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 10px;
+    left: 10px;
+}
+
+iframe {
+	width: 100%;
+    height: 100%;
+}
+
+#help_div {
+	position: absolute;
+    left: 30px;
+    top: 90%;
+	cursor: pointer;
+}
+
+#help_div #help {
+	height: 50px;
+}
+
+/* bottom */
+#bottom {
+	padding: 10px;
+}
+
+#copyright {
+    color: #CCCCCC;
+	text-align: center;
+}
+
+#copyright_span {
+	font-size: 12px;
+	color: #666666;
+	letter-spacing: 0.86px;
+	text-align: justify;
+}
